@@ -1,25 +1,25 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title> Stopwatch Demo </title>
-	<link rel="stylesheet" type="text/css" href="StopWatch.css">
-</head>
-<body>
-	<h1>Stopwatch Demo </h1>
-	<div id="main">
-		<div>
-			<h1 style="color:black" id="cur_time">0</h1>
-		</div>
-		<div id="button_main">
-			<button id="toggler" onclick="toggler()">Start/Stop </button>
-			<button id="reset" onclick="reset_time()">Reset</button>
-			<button id="record" onclick="recorder()">Record Time</button>
-		</div>
-	</div>
-	<h2 style="font-size:40px;text-align:center"> Past Times </h2>
-	<div id="past">
-		<ol id="past_list">
-		</ol>
-	</div>
-</body>
-<script src="StopWatch.js"></script>
+  <head>
+    <title>Stopwatch Demo</title>
+    <link rel="stylesheet" type="text/css" href="StopWatch.css" />
+  </head>
+  <body>
+    <h1>Stopwatch Demo</h1>
+    <div id="main">
+      <div>
+        <h1 style="color: black" id="cur_time">0</h1>
+      </div>
+      <div id="button_main">
+        <button id="toggler" onclick="toggler()">Start/Stop</button>
+        <button id="reset" onclick="reset_time()">Reset</button>
+        <button id="record" onclick="recorder()">Record Time</button>
+      </div>
+    </div>
+    <h2 style="font-size: 40px; text-align: center">Past Times</h2>
+    <div id="past">
+      <ol id="past_list"></ol>
+    </div>
+  </body>
+  <script src="StopWatch.js"></script>
 </html>
